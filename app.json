@@ -1,8 +1,7 @@
 {
   "name": "Pyramids",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "description": "Site criado para treinar WebGL 2",
+  "repository": "https://github.com/3DGL/Pyramids",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 }

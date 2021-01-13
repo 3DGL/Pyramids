@@ -1,7 +1,15 @@
 'use strict';
 
-window.onload = webgl_init();
+import * as gui from "./GUI-Pyramids.js";
+import * as wutils from "./qzr-webgl-utils.js";
+import * as pyramid from "./pyramid.js";
 
-function webgl_init() {
-    alert("ioe");
+window.onload = init();
+
+export function init() {
+    gui.initGUI();
+
+    wutils.webgl_init();
+    
+    pyramid.draw_pyramid(wutils.gl, wutils.program);
 }
