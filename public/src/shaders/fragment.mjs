@@ -1,10 +1,13 @@
 export const fshader = `#version 300 es
 
-precision highp float;
+precision mediump float;
 
-out vec4 outColor;
+in vec4 vVertexColor;
 
-void main() {
-  outColor = vec4(1, 0, 0.5, 1);
+out vec4 fragColor;
+
+void main(void) {
+  fragColor = vVertexColor;
 }
+
 `;
